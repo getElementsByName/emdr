@@ -1,4 +1,4 @@
-// https://webpack.js.org/configuration/dev-server/#devserverhistoryapifallbackimport * as webpack from 'webpack';
+// https://webpack.js.org/configuration/dev-server/#devserverhistoryapifallback
 import * as webpack from 'webpack'
 import 'webpack-dev-server' // for 'devServer' type
 import * as path from 'path'

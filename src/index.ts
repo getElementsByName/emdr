@@ -1,3 +1,9 @@
 import { initializeReactApp } from './initializeReactApp'
+import { registerServiceWorker } from './registerServiceWorker'
 
-initializeReactApp() // global scope
+ // global scope
+initializeReactApp()
+
+window.addEventListener("load", () => {
+  registerServiceWorker()
+})

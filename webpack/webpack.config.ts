@@ -4,11 +4,13 @@ import * as merge from 'webpack-merge'
 import { entryOutputWebpackConfig } from './entryOutput.config'
 import { typescriptWebpackConfig } from './typescript.config'
 import { devServerWebpackConfig } from './devServer.config'
+import { workboxWebpackConfig } from './workbox.config'
 
 const webpackConfig: webpack.Configuration = merge(
-  entryOutputWebpackConfig, 
+  entryOutputWebpackConfig,
   typescriptWebpackConfig,
   devServerWebpackConfig,
+  workboxWebpackConfig,
 )
 
 export default webpackConfig
